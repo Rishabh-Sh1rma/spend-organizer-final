@@ -9,7 +9,7 @@ import {
 import { Dashboard } from "./pages/dashboard";
 import { Auth } from "./pages/auth";
 import { FinancialRecordsProvider } from "./contexts/financial-record-context";
-import { SignedIn, SignedOut, UserButton, useUser } from "@clerk/clerk-react";
+import { SignedIn, UserButton, useUser } from "@clerk/clerk-react";
 
 function App() {
   const { user } = useUser();
